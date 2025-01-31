@@ -7,7 +7,7 @@ const { requestRouter } = require('./router/request');
 const { profileRouter } = require('./router/profile');
 const userRouter = require('./router/user');
 const cors = require("cors");
-const portNo = 777;
+const portNo = 7777;
 
 app.use(cors({
     origin : "http://localhost:5173",
